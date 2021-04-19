@@ -68,7 +68,7 @@ Flow of events:
 This file will include the various types of requirements, specific to the system.
 
 ## Usability Requirements
-
+Usability requirements are 
 ### Usability Requirement 1
 
 
@@ -79,7 +79,7 @@ This file will include the various types of requirements, specific to the system
 
 
 ## Performance Requirements
-
+Performance requirements are 
 ### Performance Requirement 1
 
 
@@ -90,7 +90,7 @@ This file will include the various types of requirements, specific to the system
 
 
 ## Reliability Requirements 
-
+Reliability requirements are 
 ### Reliability Requirement 1
 
 
