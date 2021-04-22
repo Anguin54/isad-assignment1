@@ -73,4 +73,11 @@ VehicleTracking|13|34|
 PostBlizzardChecks|13|34|
 DataCollectionSystemStatus|13|34|
 MonitorLivingQuarters|13|34|
+TurbineParking|15|34|
+MonitorFoodSupplies|13|34|
+MonitorElectricalSystems|13|34|
+WeatherPrediction|13|34|
+CommunicationSystems|13|23|
 
+Each branch is for each of the headings of the tasks in the work breakdown structure.\
+At the time when each branch is pushed, the project manager should review the branches functionality, verify efficiency, then merge the branch into the master
