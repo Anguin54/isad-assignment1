@@ -9,16 +9,20 @@ There many commands to be used for version control, to commit changes, create br
 ### Command to set up git 
 Firstly, to use version control git must be initialised, then the developer id must be given
 > $git init
+
 > $git config --global user.name "FirstName LastName" 
 
 ### Commands for making files and edits
 Then, files need to be created, so that they be edited, staged then changes commited. \
 The command to create a file is
 > $vim FileName.format
+
 This command will either access a file with the name FileName.format, or create it if it does not exist. \
 The commands to stage then commit changes are
 > $git add FileName.format
+
 > $git commit -m "Change made"
+
 The message for the commit should be descriptive of what exact change was made to the file.\
 Committing does not need to be overly done, and should only be used when significant changes, or progress is made.
 
@@ -27,6 +31,7 @@ The overall software needs to be able to be accessed by all the members of the d
 First the repository needs to be set up by the administrator, which is done simply online on the GitHub website, and then the access link needs to be distributed to all the members of the development team.\
 The command to connect the online GitHub for development access is:
 > git remote add origin "https://..."
+
 "https://..." is a placeholder for the actual link to the github. \
 'origin' is simply a name assigned to the online GitHub.\
 
@@ -35,6 +40,7 @@ There is only one branch that exists by default, which is called the master bran
 During the development, secondary branches will be used to implement various features at the same time. This would require creating multiple branches, and also having multiple versions of the software simultaneously. When the task for the branch is completed, the branch would also be need to be pushed to the GitHub repository.\
 The commands to create, then move into a branch are:
 > $git branch branchName
+
 > $git checkout branchName
 
 ### Using the online GitHub repository
@@ -42,13 +48,18 @@ The main two actions that are done using the online repository are pushing and p
 Developers will be mainly be using the push function to push a branch to the local repo when they have finished implementing functionality in the software. \
 The command to push a branch to the origin is:
 > $git push -u origin branchName
+
 A project manager would be using the pull (fetch) function to review the implemented functionality, and merge into the master branch when he/she is satisfied with the quality of the functionality.\
 The commands to fetch, and subsequently merge a branch to the master from the orign are:
 > $git fetch origin branchName
+
 > $git checkout master
+
 > $git merge branchName
+
 If the project manager wants to delete the secondary branch after the merge, but also archive the branch, the commands are as follows:
 > $git tag archive/branchName branchName
+
 > $git branch -d branchName
 
 ## Branches Required
